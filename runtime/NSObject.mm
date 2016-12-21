@@ -1822,12 +1822,14 @@ _objc_rootHash(id obj)
 void *
 objc_autoreleasePoolPush(void)
 {
+//    printf("objc_autoreleasePoolPush\n");
     return AutoreleasePoolPage::push();
 }
 
 void
 objc_autoreleasePoolPop(void *ctxt)
 {
+//    printf("objc_autoreleasePoolPop\n");
     AutoreleasePoolPage::pop(ctxt);
 }
 

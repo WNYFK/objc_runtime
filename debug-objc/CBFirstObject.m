@@ -10,8 +10,8 @@
 
 @implementation CBFirstObject
 
-+ (void)load {
-    NSLog(@"load 啊啊");
-}
+//+ (void)load {
+//    NSLog(@"load 啊啊");
+//}
 
 @end
